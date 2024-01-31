@@ -1,6 +1,10 @@
 package com.example.demo;
 
+
 import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
 public class dbFunction {
     public Connection connect_to_db(String dbname, String user, String pass) {
         Connection conn = null;
